@@ -6,7 +6,7 @@ This code was used to run the experiments supporting the following paper: [High-
 ](https://arxiv.org/abs/2306.09189). However, operators defined in this project are generic enough to build arbitrary convolutional neural networks as specified in the paper.
 
 ## Requirements
-This project's dependencies are managed by Poetry, so installing [Poetry](https://python-poetry.org/) is a requirement. OpenFHE Python bindings are used to interface with OpenFHE, so the wheel file for these bindings will also need to be built. See the OpenFHE Python bindings repository for further instructions.
+This project's dependencies are managed by Poetry, so installing [Poetry](https://python-poetry.org/) is a requirement. [OpenFHE Python bindings](https://github.com/JHUAPL/openfhe-python-bindings) are used to interface with OpenFHE, so the wheel file for these bindings will also need to be built. See the OpenFHE Python bindings repository for further instructions.
 
 Once the bindings are builts, ensure that the `pyproject.toml` file contains a correct path to the bindings. Then to install the Python environment for this project, run `poetry install`. For running unit tests and the small neural network as described below, 32GB of RAM is recommended. For hardware requirements needed to reproduce results for the larger ResNet architecures, see the paper for details.
 
