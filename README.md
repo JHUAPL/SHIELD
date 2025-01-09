@@ -1,6 +1,6 @@
 # SHIELD: Secure Homomorphic Inference for Encrypted Learning on Data
 
-SHIELD is a library for evalating pre-trained convolutional neural networks on homomorphically encrypted images. It includes code for training models that are suitable for homomorphic evaluation. Implemented neural network operations include convolution, average pooling, GELU, and linear layers.
+SHIELD is a library for evaluating pre-trained convolutional neural networks on homomorphically encrypted images. It includes code for training models that are suitable for homomorphic evaluation. Implemented neural network operations include convolution, average pooling, GELU, and linear layers.
 
 This code was used to run the experiments supporting the following paper: [High-Resolution Convolutional Neural Networks on Homomorphically Encrypted Data via Sharding Ciphertexts
 ](https://arxiv.org/abs/2306.09189). However, operators defined in this project are generic enough to build arbitrary convolutional neural networks as specified in the paper.
