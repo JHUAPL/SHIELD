@@ -21,7 +21,8 @@ torchvision = "^0.14.1"
 optuna = "^3.2.0"
 joblib = "^1.3.2"
 pytest = "^7.4.0"
-openfhe = {path = "../palisade-python/wheelhouse/OpenFHE-1.0.5a0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"}
+openfhe = {path = "../openfhe-python-bindings/wheelhouse/OpenFHE-1.0.5a0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"}
+numpy = "<2.0.0"
 
 
 [build-system]
