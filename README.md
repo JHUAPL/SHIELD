@@ -34,7 +34,7 @@ The following neural network architectures are implemented using homomorphic imp
 Tests are run with `pytest`:
 
 ```
-poetry run python palisade_he_cnn/test.py
+poetry run pytest palisade_he_cnn/test.py
 ```
 
 ### A small neural network
