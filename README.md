@@ -73,4 +73,4 @@ Please cite this work as follows:
 }
 ```
 
-In addition to the authors on the supporting manuscript (Vivian Maloney, Freddy Obrect, Vikram Saraph, Prathibha Rama, and Kate Tallaksen), Lindsay Spriggs and Court Climer also contributed to this work by testing the software and integrating it with internal infrastructure.
+In addition to the authors on the supporting manuscript (Vivian Maloney, Freddy Obrecht, Vikram Saraph, Prathibha Rama, and Kate Tallaksen), Lindsay Spriggs and Court Climer also contributed to this work by testing the software and integrating it with internal infrastructure.
